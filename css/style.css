@@ -64,12 +64,6 @@ img {
     height:100%;
 }
 
-#how {
-    position: relative;
-    top: 100px;
-    opacity: 0;
-}
-
 
 footer {
     height: 200px;
@@ -105,5 +99,25 @@ footer a {
 
 footer input {
     color: #666;
+}
+
+
+#how {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+}
+
+#follow {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+}
+
+#cherry {
+    position: relative;
+    width: 80px;
+    top: 100px;
+    opacity: 0;
 }
     
