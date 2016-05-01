@@ -21,6 +21,6 @@ $(window).scroll(function () {
 var scene = new ScrollMagic.Scene({
     triggerElement: "#trigger1"
 })
-    .setTween("#animate1", 0.5, {opacity: 0.5, scale: 2.5}) // trigger a TweenMax.to tween
+    .setTween("#how", 0.5, {opacity: 1.0, top: 0}) // trigger a TweenMax.to tween
     .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
     .addTo(controller);
